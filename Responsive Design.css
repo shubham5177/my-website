@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    input,
+    button {
+        width: 80%;
+    }
+}
